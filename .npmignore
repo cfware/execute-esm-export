@@ -1,0 +1,7 @@
+*.tgz
+.nyc_output
+coverage
+.travis.yml
+nyc.config.cjs
+fixtures
+test

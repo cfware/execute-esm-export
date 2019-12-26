@@ -1,0 +1,29 @@
+{
+	"name": "execute-esm-export",
+	"version": "0.1.0",
+	"description": "Execute an ESM export",
+	"scripts": {
+		"test": "nyc node --require=./suppress-experimental.cjs test/test.js"
+	},
+	"engines": {
+		"node": ">=13.3"
+	},
+	"author": "Corey Farrell",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cfware/execute-esm-export.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cfware/execute-esm-export/issues"
+	},
+	"homepage": "https://github.com/cfware/execute-esm-export#readme",
+	"type": "module",
+	"bin": "bin.cjs",
+	"main": false,
+	"exports": {},
+	"devDependencies": {
+		"libtap": "git://github.com/tapjs/libtap.git#master",
+		"nyc": "^15.0.0"
+	}
+}
