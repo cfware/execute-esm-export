@@ -23,7 +23,7 @@
 	"main": false,
 	"exports": {},
 	"devDependencies": {
-		"libtap": "git://github.com/tapjs/libtap.git#master",
+		"libtap": "^0.1.0",
 		"nyc": "^15.0.0"
 	}
 }
