@@ -23,7 +23,7 @@
 	"main": false,
 	"exports": {},
 	"devDependencies": {
-		"libtap": "^0.1.0",
+		"libtap": "^0.2.0",
 		"nyc": "^15.0.0"
 	}
 }
