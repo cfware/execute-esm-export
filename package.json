@@ -24,6 +24,6 @@
 	"exports": {},
 	"devDependencies": {
 		"libtap": "^0.3.0",
-		"nyc": "^15.0.0"
+		"nyc": "^15.1.0"
 	}
 }
